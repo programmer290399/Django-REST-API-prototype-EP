@@ -2,9 +2,9 @@ from django.db import models
 
 # Create your models here.
 class Dishes(models.Model):
-    # song title
+    # dish name 
     name = models.CharField(max_length=255, null=False)
-    # name of artist or group/band
+    # name of the restaurant
     restaurant = models.CharField(max_length=255, null=False)
 
     def __str__(self):
