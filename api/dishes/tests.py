@@ -33,7 +33,7 @@ class GetAllDishesTest(BaseViewTest):
         """
         # hit the API endpoint
         response = self.client.get(
-            reverse("Dishes-all", kwargs={"version": "v1"})
+            reverse("dishes-all", kwargs={"version": "v1"})
         )
         # fetch the data from db
         expected = Dishes.objects.all()
