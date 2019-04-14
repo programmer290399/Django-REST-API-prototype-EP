@@ -6,3 +6,4 @@ elasticsearch-6.7.0
 api\api\__pycache__
 api\dishes\__pycache__
 Examples
+api/api/__pycache__/settings.cpython-36.pyc
